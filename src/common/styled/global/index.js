@@ -32,7 +32,6 @@ const GlobalStyle = createGlobalStyle`
 
   input:focus {
     outline: none;
-    box-shadow: 0 0 0 2px ${COLOR.CORAL_MAIN};
   }
 
   body, button, input, textarea {
@@ -48,7 +47,6 @@ const GlobalStyle = createGlobalStyle`
 
   textarea:focus {
     outline: none;
-    box-shadow: 0 0 0 2px ${COLOR.CORAL_MAIN};
   }
 
   a {

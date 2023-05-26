@@ -3,7 +3,7 @@ import { RecoilRoot } from 'recoil';
 import { BrowserRouter } from 'react-router-dom';
 import Router from '@routes';
 
-import { GlobalStyle } from '@styled/global';
+import  GlobalStyle  from '@styled/global';
 
 function App() {
     return (
