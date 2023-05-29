@@ -3,17 +3,18 @@ import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
   ${reset};
-
-  html,
-  body {
-    max-width: 390px;
-    height: 100%;
-    margin: 0 auto;
-  }
   
   * {
     box-sizing: border-box;
     -webkit-tap-highlight-color : transparent;
+  }
+
+  #root {
+    max-width: 750px;
+    height: 100vh;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
   }
 
   button {
